@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #66b2df, #6bf166);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 130%;
+    color: white;
+    background-color: #070013;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+    max-width: 600px;
+    border-radius: 15px;
+    height: 300px;
+    width: 700px;
+    overflow-y: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.loading-spinner {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.loading-spinner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    animation: bounce 1s infinite;
+    animation-fill-mode: both;
+    transform-origin: center bottom;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    35% {
+      transform: translateY(-25px);
+      animation-timing-function: ease-in;
+    }
+    60% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+    80% {
+      transform: translateY(-15px);
+      animation-timing-function: ease-in;
+    }
+    100% {
+      transform: translateY(0);
+      animation-timing-function: ease-out;
+    }
+}
+
+#query-container {
+    text-align: center;
+}
+
+#query {
+    margin-top: 20px;
+    width: 490px;
+    height: 21px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(1, 1, 39);
+    background-color: #FFDAB9;
+    outline: none;
+}
+
+#query::placeholder {
+    font-size: 20px;
+    color: darkslategray;
+    font-style: italic;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-width: 2px;
+    border-color: #125597;
+    color: #125597;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#submit:hover {
+  background: #1a7bca;
+  color: white;
+}

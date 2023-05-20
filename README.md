@@ -7,7 +7,6 @@ David is a JavaScript Chatbot I built leveraging a Davinci-003 endpoint.
 
 GPT-3 (the 3rd iteration of the Generative Pre-trained Transformer developed by OpenAI) is capable of natural language processing tasks.
 The "Davinci" models are known for their enhanced text completion capabilities, and so are sometimes used in tasks like chatting with people.
-David
 
 
 # Plans For David

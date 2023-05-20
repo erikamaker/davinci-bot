@@ -11,9 +11,9 @@ The "Davinci" models are known for their enhanced text completion capabilities, 
 
 # Plans For David
 
-My intent is for David to be an animated chatbot that can live in browser or in a mobile app.
+My intent is for David to be an animated chatbot that lives in-browser, and potentially on a mobile app.
 Currently, David accepts and responds to 1 query at a time. He promptly forgets the query after answering it.
-I would like to integrate a way for him to remember users, their unique API keys, and their past conversations.
+I would like to integrate a way for him to remember users, their unique API keys, and their conversations. 
 I'd like him to develop a complementerary way of speaking that is unique to each user.
 
 

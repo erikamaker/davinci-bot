@@ -1,8 +1,8 @@
-![screencap](https://github.com/erikamaker/davinci-bot/assets/118931925/359a0050-a2f5-4d23-bbbd-07074b58b13b)
-
 # A Bot Named David
 
 David is a JavaScript Chatbot I built leveraging a Davinci-003 endpoint.
+
+![screencap](https://github.com/erikamaker/davinci-bot/assets/118931925/22a8e15c-1ff0-4250-a947-fdca4e37377c)
 
 # How Does David Work?
 

@@ -1,9 +1,8 @@
- file:///home/erikamaker/Screenshots/Screenshot%20from%202023-05-20%2023-30-45.png
- 
 # A Bot Named David
 
 David is a JavaScript Chatbot I built leveraging a Davinci-003 endpoint.
 
+ file:///home/erikamaker/Screenshots/Screenshot%20from%202023-05-20%2023-30-45.png
 
 # How Does David Work?
 

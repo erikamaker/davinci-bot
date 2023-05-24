@@ -2,7 +2,7 @@
 
 David is a JavaScript Chatbot I built leveraging a Davinci-003 endpoint.
 
- file:///home/erikamaker/Screencasts/Screencast%20from%2005-24-2023%2005:48:48%20PM.webm
+
 
 # How Does David Work?
 

@@ -2,7 +2,7 @@
 
 David is a JavaScript Chatbot I built leveraging a Davinci-003 endpoint.
 
-![Screenshot from 2023-05-24 17-47-01](https://github.com/erikamaker/davinci-bot/assets/118931925/9f382e26-1f77-494f-837b-ccd7f633f273)
+ file:///home/erikamaker/Screencasts/Screencast%20from%2005-24-2023%2005:48:48%20PM.webm
 
 # How Does David Work?
 
@@ -16,6 +16,4 @@ My intent is for David to be an animated chatbot that lives in-browser, and pote
 Currently, David accepts and responds to 1 query at a time. He promptly forgets the query after answering it.
 I would like to integrate a way for him to remember users, their unique API keys, and their conversations. 
 I'd like him to develop a complementerary way of speaking that is unique to each user.
-
-
 

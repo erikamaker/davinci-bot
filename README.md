@@ -18,8 +18,8 @@ This project entailed wrapping Davinci-003 in JavaScript, and rendering him in H
 
 # Plans For David
 
-My intent is for David to be an animated chatbot that lives in-browser, and potentially on a mobile app.
-Currently, David accepts and responds to 1 query at a time. He promptly forgets the query after answering it.
+Currently, David responds to 1 query at a time, and promptly forgets it after answering it.
 I would like to integrate a way for him to remember users, their unique API keys, and their conversations. 
 I'd like him to develop a complementerary way of speaking that is unique to each user.
+I would also like to build more exception handling to safeguard against nonsensical answers. 
 
